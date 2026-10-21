@@ -888,3 +888,9 @@ header::after {
     padding-bottom: 12px;
   }
 }
+
+@media (max-width: 760px) {
+  .hero {
+    background-position: center, 85% center;
+  }
+}
