@@ -873,3 +873,18 @@ header::after {
     #f7f5f0 100%
   );
 }
+
+@media (max-width: 420px) {
+  .service-areas {
+    row-gap: 0;
+  }
+
+  .service-areas h2 {
+    margin-bottom: 24px;
+  }
+
+  .service-areas li {
+    margin: 0;
+    padding-bottom: 12px;
+  }
+}
